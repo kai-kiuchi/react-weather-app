@@ -1,12 +1,23 @@
-# React + Vite
+# React Weather App ☀️🌧️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite で開発した天気予報アプリです。  
+外部の天気APIを利用して、都市名を入力すると現在の天気や気温を表示します。  
 
-Currently, two official plugins are available:
+## 🌐 デモ
+- **アプリを触る**: [React Weather App](https://kai-kiuchi.github.io/react-weather-app/)  
+- **ソースコード**: [GitHub Repository](https://github.com/kai-kiuchi/react-weather-app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ 主な機能
+- 都市名を入力して天気を検索
+- 天気アイコンや気温の表示
+- APIレスポンスに基づくリアルタイム更新
 
-## Expanding the ESLint configuration
+## 🛠️ 使用技術
+- React 19 (with Vite)
+- JavaScript (ES2023)
+- OpenWeatherMap API
+- GitHub Pages (ホスティング)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 今後の改善予定
+- UIデザインの改善（レスポンシブ対応）
+- APIキーの安全な取り扱い
